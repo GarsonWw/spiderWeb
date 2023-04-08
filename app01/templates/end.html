@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>started</title>
+    <style type="text/css">
+    .setCenter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .title {
+      padding:5px;
+      background: #F7F7F7;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      margin-top: 10px;
+      color: #616161;
+      font-size: 16px;
+    }
+
+    .font {
+      color: #00a5e0;
+      font-size: 14px;
+    }
+
+    .paging {
+      width: 1660px;
+      height: 40px;
+      background: #EFF3F8;
+      padding-top: 8px;
+      padding-left: 30px;
+      margin-top: 20px;
+    }
+
+    .page-font {
+      color: #292929;
+      font-size: 14px;
+    }
+
+    .iinput{
+        margin:5px;
+    }
+  </style>
+    <script>
+        function runningAlert(){  alert("第一行"+"");  }
+    </script>
+</head>
+<body>
+<div class="setCenter"><h1>抢场结束，请查看结果</h1></div>
+<div class="setCenter">
+<!--    <form action="/PreInfo/" style="padding:10px;">-->
+<!--        <input type="submit" value="重新抢场" style="padding:10px;">-->
+<!--    </form>-->
+    <div style="padding:10px;"><button href="javascript:;" onClick="javascript:history.back(-1);" style="padding:10px;">继续抢场</button></div>
+    <form action="/result/" style="padding:10px;">
+        <input type="submit" value="查看结果" style="padding:10px;">
+    </form>
+</div>
+</body>
+</html>
